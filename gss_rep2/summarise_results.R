@@ -1,0 +1,97 @@
+
+library(RColorBrewer)
+
+palette <- rep(brewer.pal(4, 'Set1'), 2)
+sims <- c('_het_clock', '_het_rel0.1',
+     '_het_rel0.5', '_het_rel1',
+     '_ultra_clock', '_ultra_rel0.1',
+     '_ultra_rel0.5', '_ultra_rel1')
+     
+models <- c('strict_dates', 'ucld_dates', 'strict_ultra',
+       'ucld_ultra', 'strict_random', 'ucld_random')
+
+ultra_models <- c('ultra', 'ultra_ucld')
+het_models <- c('dates', 'dates_ucld')
+mean_ranks <- matrix(NA, length(sims), length(models))
+colnames(mean_ranks) <- models
+rownames(mean_ranks) <- sims
+
+models_selected <- matrix(NA, length(sims), length(models))
+colnames(models_selected) <- models
+rownames(models_selected) <- sims
+
+extract_mle <- function(input){
+  ml <- strsplit(grep('log marginal likelihood', input, value = T), ' ')[[1]]
+  return(as.numeric(ml[length(ml)]))
+}
+
+nsims <- 10
+models_selected <- matrix(NA, length(sims), length(models))
+colnames(models_selected) <- models
+rownames(models_selected) <- sims
+
+mean_ranks <- matrix(NA, length(sims), length(models))
+colnames(mean_ranks) <- models
+rownames(mean_ranks) <- gsub('^_', '', sims)
+
+pdf('Fig2_GSS.pdf', useDingbats = F)
+par(mfcol = c(4, 2), mar = c(2, 4, 2, 1))
+for(s in 1:length(sims)){
+      ml_matrix <- matrix(NA, nsims, length(models))
+      colnames(ml_matrix) <- models
+      
+      for(m in 1:length(models)){
+        sim_files <- paste0('GSS_', models[m], sims[s],
+		  '_sim_', 1:nsims, '.mle.result.log')
+	ml_matrix[, m] <- sapply(sim_files, function(x) extract_mle(readLines(x)))
+      }
+      plot(c(0.7, 6.3), c(5, -diff(range(ml_matrix[9, ])))*1.6, type = 'n', xaxt = 'n',
+        ylab = sims[s], xlab = 'Model')
+      axis(1, at = 1:length(models), labels = models)
+      temp_ranks <- matrix(NA, nrow(ml_matrix), ncol(ml_matrix))
+      best_models <- vector(length = length(models))
+      bfs <- vector()
+      bf_het_ultra <- vector()
+      for(row in 1:nrow(ml_matrix)){
+        best_models <- best_models + c(ml_matrix[row, ] == max(ml_matrix[row, ]))
+        temp_ranks[row, ] <- rank(ml_matrix[row, ])
+        offset <- rnorm(1, 0, 0.08)
+	shapes <- 1+(ml_matrix[row, ] == max(ml_matrix[row, ]))
+	ml_ordered <- sort(ml_matrix[row, ], decreasing = T)
+	bfs[row] <- ml_ordered[1] - ml_ordered[2]
+	bf_het_ultra[row] <- max(ml_matrix[row, c('strict_dates', 'ucld_dates')]) - max(ml_matrix[row, c('strict_ultra', 'ucld_ultra')])
+        lines(1:ncol(ml_matrix) + offset, ml_matrix[row, ]-max(ml_matrix[row, ]), col = palette[s])
+	points(1:ncol(ml_matrix) + offset, ml_matrix[row, ]-max(ml_matrix[row, ]), col = palette[s], pch = c(20, 4)[shapes])
+      }
+      text(1.5, -diff(range(ml_matrix[9, ]))*0.5,  round(mean(bfs), 2), cex = 0.5)
+      text(1.5, -diff(range(ml_matrix[9, ]))*0.8, round(mean(bf_het_ultra), 2), cex = 0.5)	
+      models_selected[s, ] <- best_models
+      mean_ranks[s, ] <- round(colMeans(temp_ranks), 2)
+}
+write.table(mean_ranks, '../mean_ranking_GSS.csv', sep = ',')
+dev.off()
+###
+pdf('Fig1_GSS.pdf', useDingbats = F)
+models_het <- models_selected[1:4, ]
+par(mfrow = c(2, 1))
+plot(c(0.5, 6.5), range(models_het), type = 'n', xaxt = 'n', ylab = 'Freq model selected')
+legend(5, 9, legend = sims[1:4], fill = palette[1:4], cex = 0.5)
+for(m in 1:nrow(models_het)){
+  position <- 0.1*m
+  print(position)
+  for(i in 1:ncol(models_het)) lines(rep(i-0.25, 2)+position, c(0, models_het[m, i]), col = palette[m], lwd = 4)
+}
+
+models_ultra <- models_selected[5:8, ]
+plot(c(0.5, 6.5), range(models_ultra), type = 'n', ylab = '', xaxt = 'n')
+axis(1, at = 1:length(models), labels = models)
+for(m in 1:nrow(models_ultra)){
+position <- 0.1*m
+print(position)
+for(i in 1:ncol(models_ultra)) lines(rep(i-0.25, 2)+position, c(0, models_ultra[m, i]), col = palette[m], lwd = 4)
+}
+axis(1, at = 1:length(models), labels = models)
+dev.off()
+
+
+
