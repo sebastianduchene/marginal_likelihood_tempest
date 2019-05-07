@@ -758,7 +758,7 @@ tgcgtcgattactgcctttcacacttgtcggaagtcgaaagtcgaacagagtccgagggaatacgtctcttaagcctcgt
 			</frequencyModel>
 		</frequencies>
 		<kappa>
-			<parameter id="kappa" value="2.0" lower="0.0"/>
+			<parameter id="kappa" value="1.0" lower="0.0"/>
 		</kappa>
 	</HKYModel>
 
@@ -791,12 +791,6 @@ tgcgtcgattactgcctttcacacttgtcggaagtcgaaagtcgaacagagtccgagggaatacgtctcttaagcctcgt
 
 	<!-- Define operators                                                        -->
 	<operators id="operators" optimizationSchedule="default">
-		<scaleOperator scaleFactor="0.75" weight="1">
-			<parameter idref="kappa"/>
-		</scaleOperator>
-		<deltaExchange delta="0.01" weight="1">
-			<parameter idref="frequencies"/>
-		</deltaExchange>
 		<scaleOperator scaleFactor="0.75" weight="1">
 			<parameter idref="alpha"/>
 		</scaleOperator>
@@ -851,12 +845,6 @@ tgcgtcgattactgcctttcacacttgtcggaagtcgaaagtcgaacagagtccgagggaatacgtctcttaagcctcgt
 	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
-				<logNormalPrior mu="1.0" sigma="1.25" offset="0.0">
-					<parameter idref="kappa"/>
-				</logNormalPrior>
-				<dirichletPrior alpha="1.0" sumsTo="1.0">
-					<parameter idref="frequencies"/>
-				</dirichletPrior>
 				<exponentialPrior mean="0.5" offset="0.0">
 					<parameter idref="alpha"/>
 				</exponentialPrior>
@@ -871,7 +859,7 @@ tgcgtcgattactgcctttcacacttgtcggaagtcgaaagtcgaacagagtccgagggaatacgtctcttaagcctcgt
 				<exponentialPrior mean="0.3333333333333333" offset="0.0">
 					<parameter idref="ucld.stdev"/>
 				</exponentialPrior>
-				<exponentialPrior mean="10">
+				<exponentialPrior mean="100">
 				  <parameter idref="exponential.popSize"/>
 				
 				  </exponentialPrior>			
@@ -976,12 +964,6 @@ tgcgtcgattactgcctttcacacttgtcggaagtcgaaagtcgaacagagtccgagggaatacgtctcttaagcctcgt
 			</source>
 			<destination>
 				<workingPrior>
-					<logTransformedNormalReferencePrior fileName="GSS_ucld_dates_het_rel1_sim_2.log" parameterColumn="kappa" burnin="5000000">
-						<parameter idref="kappa"/>
-					</logTransformedNormalReferencePrior>
-					<logitTransformedNormalReferencePrior fileName="GSS_ucld_dates_het_rel1_sim_2.log" parameterColumn="frequencies" dimension="4" burnin="5000000">
-						<parameter idref="frequencies"/>
-					</logitTransformedNormalReferencePrior>
 					<logTransformedNormalReferencePrior fileName="GSS_ucld_dates_het_rel1_sim_2.log" parameterColumn="alpha" burnin="5000000">
 						<parameter idref="alpha"/>
 					</logTransformedNormalReferencePrior>

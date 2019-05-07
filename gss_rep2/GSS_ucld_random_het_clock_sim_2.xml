@@ -13,295 +13,295 @@
 	<!-- ntax=50                                                                 -->
 	<taxa id="taxa">
 	  <taxon id="A_1_1.09">
-<date value="3.5" direction="forwards" units="years"/>
+<date value="3.67" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_10_4.25">
-<date value="4.51" direction="forwards" units="years"/>
+<date value="4.98" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_11_2.42">
-<date value="4.83" direction="forwards" units="years"/>
+<date value="4.98" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_12_3.3">
-<date value="4.1" direction="forwards" units="years"/>
+<date value="3.38" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_13_4.98">
-<date value="4.17" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_14_4.98">
-<date value="4.98" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_15_4.58">
-<date value="2.7" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_16_4.63">
-<date value="0.78" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_17_3.06">
-<date value="4.58" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_18_4.51">
-<date value="4.76" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_19_4.62">
-<date value="1.86" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_2_1.95">
-<date value="4.2" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_20_2.62">
-<date value="4.67" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_21_3.1">
 <date value="4.57" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_22_2.61">
-<date value="4.31" direction="forwards" units="years"/>
+<taxon id="A_14_4.98">
+<date value="2.73" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_23_2.28">
-<date value="4.15" direction="forwards" units="years"/>
+<taxon id="A_15_4.58">
+<date value="4.77" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_24_4.01">
-<date value="3.1" direction="forwards" units="years"/>
+<taxon id="A_16_4.63">
+<date value="4.87" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_25_4.99">
-<date value="1.73" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_26_3.45">
-<date value="4.83" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_27_4.83">
-<date value="4.98" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_28_3.73">
-<date value="4.05" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_29_3.5">
-<date value="2.61" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_3_4.05">
-<date value="1.99" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_30_4.15">
+<taxon id="A_17_3.06">
 <date value="3.44" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_31_4.99">
-<date value="3.3" direction="forwards" units="years"/>
+<taxon id="A_18_4.51">
+<date value="4.95" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_32_4.57">
-<date value="3.45" direction="forwards" units="years"/>
+<taxon id="A_19_4.62">
+<date value="2.69" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_33_4.48">
-<date value="4.01" direction="forwards" units="years"/>
+<taxon id="A_2_1.95">
+<date value="4.76" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_34_4.76">
-<date value="4.79" direction="forwards" units="years"/>
+<taxon id="A_20_2.62">
+<date value="4.21" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_35_4.5">
-<date value="4.25" direction="forwards" units="years"/>
+<taxon id="A_21_3.1">
+<date value="3.98" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_36_3.62">
-<date value="3.53" direction="forwards" units="years"/>
+<taxon id="A_22_2.61">
+<date value="2.7" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_37_1.35">
+<taxon id="A_23_2.28">
+<date value="4.31" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_24_4.01">
+<date value="4.1" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_25_4.99">
+<date value="3.16" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_26_3.45">
 <date value="1.09" direction="forwards" units="years"/>
 </taxon>
+<taxon id="A_27_4.83">
+<date value="3.06" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_28_3.73">
+<date value="4.29" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_29_3.5">
+<date value="0.78" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_3_4.05">
+<date value="4.25" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_30_4.15">
+<date value="4.62" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_31_4.99">
+<date value="3.15" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_32_4.57">
+<date value="4.79" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_33_4.48">
+<date value="4.5" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_34_4.76">
+<date value="2.31" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_35_4.5">
+<date value="3.53" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_36_3.62">
+<date value="4.15" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_37_1.35">
+<date value="4.76" direction="forwards" units="years"/>
+</taxon>
 <taxon id="A_38_1.73">
-<date value="1.46" direction="forwards" units="years"/>
+<date value="3.94" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_39_2.24">
 <date value="3.91" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_4_4.37">
-<date value="3.53" direction="forwards" units="years"/>
+<date value="3.45" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_40_4.29">
-<date value="4.34" direction="forwards" units="years"/>
+<date value="4.09" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_41_4.21">
-<date value="2.42" direction="forwards" units="years"/>
+<date value="4.79" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_42_4.99">
-<date value="1.65" direction="forwards" units="years"/>
+<date value="2.61" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_43_4.79">
 <date value="4.47" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_44_4.47">
-<date value="1.35" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_45_3.44">
-<date value="3.39" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_46_3.67">
-<date value="4.59" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_47_1.86">
-<date value="3.42" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_48_3.53">
-<date value="2.24" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_49_2.69">
-<date value="4.58" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_5_3.98">
-<date value="3.15" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_50_0.78">
-<date value="3.78" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_51_2.7">
-<date value="3.3" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_52_3.53">
-<date value="2.92" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_53_4.1">
-<date value="4.02" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_54_3.67">
-<date value="4.95" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_55_3.25">
-<date value="4.5" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_56_1.44">
-<date value="4.58" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_57_1.99">
-<date value="4.87" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_58_2.74">
-<date value="4.29" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_59_3.15">
-<date value="3.98" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_6_4.77">
-<date value="4.33" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_60_3.42">
-<date value="4.76" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_61_4.83">
-<date value="4.9" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_62_4.12">
-<date value="3.67" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_63_4.17">
-<date value="4.99" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_64_4.37">
-<date value="4.79" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_65_4.87">
-<date value="2.31" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_66_3.77">
-<date value="3.77" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_67_4.79">
-<date value="4.99" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_68_4.09">
-<date value="2.27" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_69_4.9">
-<date value="3.67" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_7_4.98">
-<date value="4.37" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_70_4.67">
-<date value="3.16" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_71_4.31">
-<date value="4.48" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_72_4.57">
-<date value="4.09" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_73_4.33">
-<date value="2.28" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_74_4.2">
-<date value="3.62" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_75_4.58">
-<date value="4.75" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_76_4.59">
-<date value="1.95" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_77_3.16">
-<date value="4.55" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_78_3.38">
-<date value="4.76" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_79_3.78">
 <date value="2.06" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_8_4.58">
-<date value="3.73" direction="forwards" units="years"/>
+<taxon id="A_45_3.44">
+<date value="4.48" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_80_3.3">
-<date value="3.25" direction="forwards" units="years"/>
+<taxon id="A_46_3.67">
+<date value="1.65" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_81_1.65">
-<date value="3.06" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_82_1.46">
-<date value="4.63" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_83_2.14">
-<date value="2.74" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_84_4.34">
-<date value="2.69" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_85_4.75">
-<date value="2.62" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_86_4.02">
-<date value="2.14" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_87_3.39">
-<date value="3.94" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_88_4.76">
-<date value="4.57" direction="forwards" units="years"/>
-</taxon>
-<taxon id="A_89_4.76">
+<taxon id="A_47_1.86">
 <date value="4.12" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_9_4.95">
-<date value="4.99" direction="forwards" units="years"/>
+<taxon id="A_48_3.53">
+<date value="1.95" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_90_3.91">
-<date value="3.38" direction="forwards" units="years"/>
+<taxon id="A_49_2.69">
+<date value="4.33" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_91_4.55">
-<date value="4.62" direction="forwards" units="years"/>
+<taxon id="A_5_3.98">
+<date value="4.75" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_92_3.94">
-<date value="2.73" direction="forwards" units="years"/>
+<taxon id="A_50_0.78">
+<date value="4.9" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_93_2.27">
+<taxon id="A_51_2.7">
+<date value="4.05" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_52_3.53">
+<date value="4.76" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_53_4.1">
+<date value="3.62" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_54_3.67">
+<date value="4.58" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_55_3.25">
+<date value="4.58" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_56_1.44">
+<date value="3.39" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_57_1.99">
+<date value="2.74" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_58_2.74">
+<date value="1.35" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_59_3.15">
+<date value="4.57" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_6_4.77">
+<date value="3.67" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_60_3.42">
+<date value="1.73" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_61_4.83">
+<date value="3.3" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_62_4.12">
+<date value="3.3" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_63_4.17">
+<date value="4.63" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_64_4.37">
+<date value="3.42" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_65_4.87">
+<date value="4.83" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_66_3.77">
+<date value="3.1" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_67_4.79">
+<date value="2.28" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_68_4.09">
+<date value="3.5" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_69_4.9">
+<date value="1.86" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_7_4.98">
+<date value="2.14" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_70_4.67">
+<date value="2.42" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_71_4.31">
+<date value="4.37" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_72_4.57">
+<date value="2.62" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_73_4.33">
+<date value="3.73" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_74_4.2">
 <date value="1.44" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_94_2.31">
-<date value="4.21" direction="forwards" units="years"/>
+<taxon id="A_75_4.58">
+<date value="4.99" direction="forwards" units="years"/>
 </taxon>
-<taxon id="A_95_2.06">
+<taxon id="A_76_4.59">
+<date value="4.99" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_77_3.16">
+<date value="2.92" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_78_3.38">
+<date value="4.51" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_79_3.78">
+<date value="4.99" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_8_4.58">
+<date value="4.59" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_80_3.3">
+<date value="4.17" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_81_1.65">
+<date value="4.2" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_82_1.46">
+<date value="1.46" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_83_2.14">
+<date value="4.02" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_84_4.34">
+<date value="4.01" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_85_4.75">
+<date value="4.67" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_86_4.02">
+<date value="4.37" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_87_3.39">
+<date value="1.99" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_88_4.76">
+<date value="3.78" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_89_4.76">
 <date value="4.98" direction="forwards" units="years"/>
 </taxon>
+<taxon id="A_9_4.95">
+<date value="2.24" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_90_3.91">
+<date value="3.53" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_91_4.55">
+<date value="4.34" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_92_3.94">
+<date value="2.27" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_93_2.27">
+<date value="4.58" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_94_2.31">
+<date value="4.55" direction="forwards" units="years"/>
+</taxon>
+<taxon id="A_95_2.06">
+<date value="3.25" direction="forwards" units="years"/>
+</taxon>
 <taxon id="A_96_2.73">
-<date value="4.77" direction="forwards" units="years"/>
+<date value="3.77" direction="forwards" units="years"/>
 </taxon>
 <taxon id="A_97_2.92">
-<date value="4.37" direction="forwards" units="years"/>
+<date value="4.83" direction="forwards" units="years"/>
 </taxon>
 	</taxa>
 	
@@ -710,7 +710,7 @@ gaggcgtccattgttaatggttaattaaaagacgatggggatctaaaagaatcctctttatgatcccatattccggtatt
 			</frequencyModel>
 		</frequencies>
 		<kappa>
-			<parameter id="kappa" value="2.0" lower="0.0"/>
+			<parameter id="kappa" value="1.0" lower="0.0"/>
 		</kappa>
 	</HKYModel>
 
@@ -743,12 +743,6 @@ gaggcgtccattgttaatggttaattaaaagacgatggggatctaaaagaatcctctttatgatcccatattccggtatt
 
 	<!-- Define operators                                                        -->
 	<operators id="operators" optimizationSchedule="default">
-		<scaleOperator scaleFactor="0.75" weight="1">
-			<parameter idref="kappa"/>
-		</scaleOperator>
-		<deltaExchange delta="0.01" weight="1">
-			<parameter idref="frequencies"/>
-		</deltaExchange>
 		<scaleOperator scaleFactor="0.75" weight="1">
 			<parameter idref="alpha"/>
 		</scaleOperator>
@@ -803,12 +797,6 @@ gaggcgtccattgttaatggttaattaaaagacgatggggatctaaaagaatcctctttatgatcccatattccggtatt
 	<mcmc id="mcmc" chainLength="50000000" autoOptimize="true">
 		<joint id="joint">
 			<prior id="prior">
-				<logNormalPrior mu="1.0" sigma="1.25" offset="0.0">
-					<parameter idref="kappa"/>
-				</logNormalPrior>
-				<dirichletPrior alpha="1.0" sumsTo="1.0">
-					<parameter idref="frequencies"/>
-				</dirichletPrior>
 				<exponentialPrior mean="0.5" offset="0.0">
 					<parameter idref="alpha"/>
 				</exponentialPrior>
@@ -823,7 +811,7 @@ gaggcgtccattgttaatggttaattaaaagacgatggggatctaaaagaatcctctttatgatcccatattccggtatt
 				<exponentialPrior mean="0.3333333333333333" offset="0.0">
 					<parameter idref="ucld.stdev"/>
 				</exponentialPrior>
-				<exponentialPrior mean="10">
+				<exponentialPrior mean="100">
 				  <parameter idref="exponential.popSize"/>
 				
 				  </exponentialPrior>			
@@ -928,12 +916,6 @@ gaggcgtccattgttaatggttaattaaaagacgatggggatctaaaagaatcctctttatgatcccatattccggtatt
 			</source>
 			<destination>
 				<workingPrior>
-					<logTransformedNormalReferencePrior fileName="GSS_ucld_random_het_clock_sim_2.log" parameterColumn="kappa" burnin="5000000">
-						<parameter idref="kappa"/>
-					</logTransformedNormalReferencePrior>
-					<logitTransformedNormalReferencePrior fileName="GSS_ucld_random_het_clock_sim_2.log" parameterColumn="frequencies" dimension="4" burnin="5000000">
-						<parameter idref="frequencies"/>
-					</logitTransformedNormalReferencePrior>
 					<logTransformedNormalReferencePrior fileName="GSS_ucld_random_het_clock_sim_2.log" parameterColumn="alpha" burnin="5000000">
 						<parameter idref="alpha"/>
 					</logTransformedNormalReferencePrior>
