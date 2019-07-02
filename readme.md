@@ -14,14 +14,14 @@ Data sets with abnormal patterns:
     - GSS_strict_random_utlra_clock_sim_1.xml
     - GSS_ucld_dates_utlra_clock_sim_1.xml
     - GSS_ucld_ultra_utlra_clock_sim_1.xml
-  - *sim 6*
+  - *sim 6* (currently rerunning all ultrametric with \sigma=0.1 with new simulations)
     - GSS_strict_dates_utlra_rel0.1_sim_6.xml
     - GSS_strict_ultra_utlra_rel0.1_sim_6.xml
     - GSS_ucld_random_utlra_rel0.1_sim_6.xml
     - GSS_strict_random_utlra_rel0.1_sim_6.xml
     - GSS_ucld_dates_utlra_rel0.1_sim_6.xml
     - GSS_ucld_ultra_utlra_rel0.1_sim_6.xml
-  - *sim 10*
+  - *sim 10* (currently rerunning all ultrametric with \sigma=0.5 with new simulations)
     - GSS_strict_dates_utlra_rel0.5_sim_10.xml
     - GSS_strict_ultra_utlra_rel0.5_sim_10.xml
     - GSS_ucld_random_utlra_rel0.5_sim_10.xml
