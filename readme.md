@@ -7,7 +7,7 @@
 
 Data sets with abnormal patterns:
 - In bd_dates_low_rate
-  - *sim1* (currently rerunning all ultrametric with clock)
+  - *sim1* (currently rerunning all ultrametric with clock with new simulations)
     - GSS_strict_dates_utlra_clock_sim_1.xml
     - GSS_strict_ultra_utlra_clock_sim_1.xml
     - GSS_ucld_random_utlra_clock_sim_1.xml
@@ -29,7 +29,7 @@ Data sets with abnormal patterns:
     - GSS_ucld_dates_utlra_rel0.5_sim_10.xml
     - GSS_ucld_ultra_utlra_rel0.5_sim_10.xml
 
-- In short_sampling_high_rate --*X Checked. This one is fine.*
+- In short_sampling_high_rate --*X Checked. This one is fine. Just hadn't mixed*
   - *sim 9*
     - GSS_strict_dates_het_rel1_sim_9.xml
     - GSS_strict_ultra_het_rel1_sim_9.xml
