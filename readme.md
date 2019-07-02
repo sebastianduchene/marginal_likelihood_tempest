@@ -7,7 +7,7 @@
 
 Data sets with abnormal patterns:
 - In bd_dates_low_rate
-  - *sim1*
+  - *sim1* (currently rerunning all ultrametric with clock)
     - GSS_strict_dates_utlra_clock_sim_1.xml
     - GSS_strict_ultra_utlra_clock_sim_1.xml
     - GSS_ucld_random_utlra_clock_sim_1.xml
