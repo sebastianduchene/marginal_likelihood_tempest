@@ -23,7 +23,7 @@ for(i in 1:length(sims)){
 }
 #############
 #############
-
+stop('w')
 templates <- paste0('bd_dates_low_rate/', c('GSS_strict_dates_utlra_clock_SIMS',
 	  'GSS_ucld_dates_utlra_clock_SIMS', 'GSS_strict_ultra_utlra_clock_SIMS',
 	  'GSS_ucld_ultra_utlra_clock_SIMS', 'GSS_strict_random_utlra_clock_SIMS',
@@ -40,7 +40,7 @@ for(i in 1:length(sims)){
       }
       offset <- rnorm(1, 0, 0.1)
       lines(1:length(mles)+offset, mles-max(mles), type = 'l')
-      if(i==1) 
+      
 }
 #############
 #############
