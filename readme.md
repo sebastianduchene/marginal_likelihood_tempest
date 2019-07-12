@@ -2,8 +2,8 @@
 
 - bd_dates_high_rate: constant sampling, evol. rate=5E-3
 - bd_dates_low_rate: constant sampling, evol. rate=1E-5
-- short_sampling_low_rate: sampling for 1/10 of the process, evol. rate=5E-3
-- short_sampling_high_rate: sampling for 1/10 of the process, evol. rate=1E-5
+- short_sampling_low_rate: sampling for 1/10 of the process, evol. rate=1E-5
+- short_sampling_high_rate: sampling for 1/10 of the process, evol. rate=5E-3
 
 Data sets with abnormal patterns:
 - In bd_dates_low_rate
