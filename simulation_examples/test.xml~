@@ -1,6 +1,6 @@
 <beast version='2.0'
        namespace='master:master.model:master.steppers:master.conditions:master.postprocessors:master.outputs'>
-    <run spec='InheritanceTrajectory' samplePopulationSizes="true" verbosity="3" simulationTime="5"> 
+    <run spec='InheritanceTrajectory' samplePopulationSizes="true" verbosity="1" simulationTime="5"> 
         <model spec='Model' id='model'>
             <population spec='Population' populationName='I' id='I'/>
             <population spec='Population' populationName='R' id='R'/>
@@ -8,7 +8,6 @@
             <reaction spec='Reaction' reactionName="Birth" rate="1.5"> <!-- lambda  -->
               I -> I + I
             </reaction>
-	    
             <reaction spec='Reaction' reactionName="Death" rate="0.5"> <!-- mu -->
               I -> R
             </reaction>
@@ -34,9 +33,9 @@
 	<postSimCondition spec="LeafCountPostSimCondition"
 			  nLeaves="90" exact="false" exceedCondition="true"/>
 	
-	<!--postSimCondition spec="LeafCountPostSimCondition"
-			  nLeaves="110" exact="false" exceedCondition="false"/-->
-	<!--inheritancePostProcessor spec="LineageFilter" reactionName="Sampling"/-->
+	<postSimCondition spec="LeafCountPostSimCondition"
+			  nLeaves="110" exact="false" exceedCondition="false"/>
+	<inheritancePostProcessor spec="LineageFilter" reactionName="Sampling"/>
         <!--output spec='NewickOutput' fileName="BD_tree.newick.tree"/-->
 	<output spec="NexusOutput" fileName="BD_tree.nexus.tree"/>
 	<output spec='JsonOutput' fileName="BD_traj.json"/>
