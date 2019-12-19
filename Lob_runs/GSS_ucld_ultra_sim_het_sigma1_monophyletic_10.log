@@ -1,0 +1,6 @@
+# BEAST v1.10.4 Prerelease #bc6cbd9
+# Generated Fri Dec 13 15:27:19 AEDT 2019 [seed=1576211238427]
+# GSS_ucld_ultra_sim_het_sigma1_monophyletic_10.xml
+# keywords: discretized_branch_rates
+state	joint	prior	likelihood	treeModel.rootHeight	age(root)	treeLength	exponential.popSize	exponential.growthRate	kappa	frequencies1	frequencies2	frequencies3	frequencies4	alpha	ucld.mean	ucld.stdev	meanRate	coefficientOfVariation	covariance	treeLikelihood	branchRates	coalescent
+0	-167489.8892232808	-1163.9454368363636	-166325.94378644443	4.910488782233277	-0.10529915264585732	28.468067596583367	1.0	0.0	1.0	0.2500000001	0.2499999999	0.2500000001	0.2499999999	0.5	0.005	0.3333333333333333	0.00488027668139817	5.0074493999269105	0.0877986329764788	-166325.94378644443	-1047.076872077518	-111.35200686152555
