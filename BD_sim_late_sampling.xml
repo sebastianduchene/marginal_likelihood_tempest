@@ -1,0 +1,44 @@
+<beast version='2.0'
+       namespace='master:master.model:master.steppers:master.conditions:master.postprocessors:master.outputs'>
+    <run spec='InheritanceTrajectory' samplePopulationSizes="true" verbosity="1" simulationTime="5"> 
+        <model spec='Model' id='model'>
+            <population spec='Population' populationName='I' id='I'/>
+            <population spec='Population' populationName='R' id='R'/>
+	    <population spec="Population" populationName="I_sampled" id="I_sampled"/>
+            <reaction spec='Reaction' reactionName="Birth" rate="1.5"> <!-- lambda  -->
+              I -> I + I
+            </reaction>
+            <reaction spec='Reaction' reactionName="Death" rate="1:0,0.1:4.5"> <!-- mu -->
+              I -> R
+            </reaction>
+	    <reaction spec="Reaction" reactionName="Sampling" rate="0:0,0.9:4.5">  <!-- psi -->
+	      I -> I_sampled
+	    </reaction>
+        </model>
+
+        <initialState spec='InitState'>
+            <lineageSeed spec='Individual' population='@I'/>
+            <populationSize spec='PopulationSize' population='@R' size='0'/>
+	    <populationSize spec="PopulationSize" population="@I_sampled" size="0"/>
+        </initialState>
+
+        <populationEndCondition spec='PopulationEndCondition'
+				population='@I' threshold="0" exceedCondition="false"
+				isRejection="true"/>
+
+        <!--populationEndCondition spec='PopulationEndCondition'
+				threshold="10000" population='@I_sampled'
+				isRejection="false"/-->
+	<postSimCondition spec="LeafCountPostSimCondition"
+			  nLeaves="90" exact="false" exceedCondition="true"/>
+	
+	<postSimCondition spec="LeafCountPostSimCondition"
+			  nLeaves="110" exact="false" exceedCondition="false"/>
+	<inheritancePostProcessor spec="LineageFilter" reactionName="Sampling"/>
+        <output spec='NewickOutput' fileName="BD_tree_late_sampling.newick.tree"/>
+	
+	<output spec="NexusOutput" fileName="BD_tree_late_sampling.nexus.tree"/>
+	
+	<output spec='JsonOutput' fileName="BD_tree_late_sampling‘.json"/>
+    </run>
+</beast>
