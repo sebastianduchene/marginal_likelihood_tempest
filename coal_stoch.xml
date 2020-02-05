@@ -56,9 +56,9 @@
 	</trait>
 
 	<populationFunction spec='PopulationFunctionFromMaster' id='popFun'
-                            origin="6"
+                            origin="0.083"
                             popSizeExpression="I"
-                            simulationTime="6"
+                            simulationTime="0.083"
                             popSizeStart="1.0"
                             verbosity="0">
           
@@ -66,10 +66,10 @@
             <population spec='Population' id='I' populationName='I'/>
             <population spec='Population' id='R' populationName='R'/>
             
-            <reaction spec='Reaction' reactionName="Infection" rate="2">
+            <reaction spec='Reaction' reactionName="Infection" rate="135">
               I -> 2I
             </reaction>
-            <reaction spec='Reaction' reactionName="Recovery" rate="1">
+            <reaction spec='Reaction' reactionName="Recovery" rate="52">
               I -> R
             </reaction>
           </model>
@@ -87,7 +87,7 @@
 
 	<run spec='CoalescentSimulatorBasic'
              maxHeight="30"
-             replicates='1'>
+             replicates='10'>
 
           <randomTree spec='RandomTree' id="tree">
             <taxonset idref="taxa"/>
